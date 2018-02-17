@@ -1,0 +1,5 @@
+1. Hint to the keyword. Sometimes user miss spell one letter and get no result and we should avoid this.
+
+2. The user interface should be improve
+
+3. User can not delete item from database through click button

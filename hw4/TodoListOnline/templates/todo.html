@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="\static\todo.js"></script>
+
+    <title>Online TodoList management server V0.1</title>
+</head>
+<body = onload = "initTasks()">
+
+    <select id="TodoIDList" onchange="drawingInfoListChange()"></select>
+
+    <table>
+        <tr>
+            <td>Discription: </td><td><input id="descriptionInput"></td>
+        </tr>
+        <tr>
+            <td>Due Date: </td><td><input id="dueDateInput"></td><td>(yyyy-mm-dd)</td>
+        </tr>
+        <tr>
+            <td>Status: </td><td><input type = "checkbox" id="statusInput"></td>
+        </tr>
+
+    </table>
+    <button onclick = "addTask()">Add</button>
+
+</body>
+</html>
